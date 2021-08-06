@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+  <div class="calc-container">
+    <header>
+      <h1 class="heading">calc</h1>
+      <div class="theme-toggle-container">
+        <div class="numbers">
+          <h4 class="theme-number">
+            1
+          </h4>
+          <h4 class="theme-number">
+            2
+          </h4>
+          <h4 class="theme-number">
+            3
+          </h4>
+        </div>
+        <div class="toggle-container">
+          <h4 class="theme-heading">theme</h4>
+          <div class="toggle">
+            <div class="toggle-ball"></div>
+            <div class="shift-container">
+              <div class="theme-1 theme-shifter"></div>
+              <div class="theme-2 theme-shifter"></div>
+              <div class="theme-3 theme-shifter"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="screen"></section>
+
+    <main class="key-pad">
+      <button class="key num">7</button>
+      <button class="key num">8</button>
+      <button class="key num">9</button>
+      <button class="key del">del</button>
+      <button class="key num">4</button>
+      <button class="key num">5</button>
+      <button class="key num">6</button>
+      <button class="key operator">+</button>
+      <button class="key num">1</button>
+      <button class="key num">2</button>
+      <button class="key num">3</button>
+      <button class="key operator">-</button>
+      <button class="key dot">.</button>
+      <button class="key num">0</button>
+      <button class="key operator">/</button>
+      <button class="key operator">&times;</button>
+      <button class="key reset">reset</button>
+      <button class="key equal">=</button>
+    </main>
+  </div>
+
+  <script src="src/app.js"></script>
+</body>
+</html>
